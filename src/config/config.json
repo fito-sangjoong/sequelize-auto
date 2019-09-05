@@ -1,0 +1,30 @@
+{
+    "development": {
+      "username": "maindb",
+      "password": "vltxnrpej12",
+      "database": "tmp",
+      "host": "testupload.ckphr4trm0oh.ap-northeast-2.rds.amazonaws.com",
+      "dialect": "mysql",
+      "operatorsAliases": false,
+      "insecureAuth" : true,
+      "define" : {
+          "timestamps" : false
+      }
+    },
+    "test": {
+      "username": "root",
+      "password": "tndud1025",
+      "database": "testRoot",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "operatorsAliases": false
+    },
+    "production": {
+      "username": "root",
+      "password": "tndud1025",
+      "database": "testRoot",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "operatorsAliases": false
+    }
+  }
